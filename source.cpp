@@ -9,11 +9,13 @@ void hello()
 }
 int tru(int a, int b)
 {
-	cout<<a-b;
+	cout << "a tru b bang"<<a - b;
+}
 int cong(int a, int b)
 {
-
+	cout << "a cong b bang" << a + b;
 }
 int nhan(int a, int b)
 {
+	cout << "a nhan b bang" << a * b;
 }

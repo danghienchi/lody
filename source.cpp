@@ -5,17 +5,17 @@ int USCLN(int a, int b)
 void hello()
 {
 	
-	cout<<"Hello";
+	cout<<"thay bang";
 }
-int tru(int a, int b)
+int tru(int e, int d)
 {
-	cout << "a tru b bang"<<a - b;
+	cout << "e tru d"<<"="<<a - b;
 }
-int cong(int a, int b)
+int cong(int w, int b)
 {
-	cout << "a cong b bang" << a + b;
+	cout << "w cong b" <<"="<< a + b;
 }
 int nhan(int a, int b)
 {
-	cout << "a nhan b bang" << a * b;
+	cout << "a nhan b "<<"="<< a * b;
 }

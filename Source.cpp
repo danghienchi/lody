@@ -1,32 +1,55 @@
-int main()
-{
-srand(time(NULL));
+#include <iostream>
 
-int a=rand()% 101 ;
-cout<<"\n So thu 1 la :"<<a;
-int b=rand()% 101 ;
-cout<<"\n So thu 2 la :"<<b;
-int n;
-cout<<"\nMoi ban nhap kq hieu 2 so";
-cin>>n;
-if(n==a-b)
+using namespace std;
+
+int USCLN(int a, int b)
 {
-	cout<<"Ban da Nhap dung";
+
 }
-else
+void hello()
 {
-	cout<<"Ban Nhap Sai!"<<"\nKq dung la :"<<a-b;
+
+	cout << "thay bang";
 }
-cout<<"\nMoi ban nhap kq tong 2 so";
-cin>>n;
-if(n==a+b)
+int tru(int e, int d)
 {
-	cout<<"Ban da Nhap dung";
+	cout << "e tru d" << "=" << a - b;
 }
-else
+int cong(int w, int b)
 {
-	cout<<"Ban Nhap Sai!"<<"\nKq dung la :"<<a+b;
+	cout << "w cong b" << "=" << a + b;
+}
+int nhan(int a, int b)
+{
+	cout << "a nhan b " << "=" << a * b;
 }
 
-return 0;
+void hieu()
+{
+	int nhap;
+	srand(time(NULL));
+	int a = rand() % (100 - 0 + 1) + 0;
+	int b = rand() % (100 - 0 + 1) + 0;
+	cout << a " - " << b << " = " << ;
+	cin >> nhap;
+	if (nhap == a - b)
+		cout << "dung";
+	else
+		cout << "sai";
+
 }
+int random()
+{
+	int nhap;
+	srand(time(NULL));
+	int a = rand() % (100 - 0 + 1) + 0;
+	int b = rand() % (100 - 0 + 1) + 0;
+	cout << a " - " << b << " = " << ;
+	cin >> nhap;
+	if (nhap == a + b)
+		cout << "dung";
+	else
+		cout << "sai";
+}
+
+

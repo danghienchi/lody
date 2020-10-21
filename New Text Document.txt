@@ -1,0 +1,25 @@
+int main()
+{
+int a,b,x;
+cout<<"-----Chu vi , dien tich hinh vuong---"
+cout<<"nhap canh";
+cin>>a;
+cout<<"chu vi la "<<a*4;
+cout<<"dien tich la "<<a*a;
+
+cout<<"-----Chu vi , dien tich chu nhat---"
+cout<<"nhap chieu dai";
+cin>>a;
+cout<<"nhap chieu rong";
+cin>>b;
+cout<<"dien tich la "<<a*b;
+cout<<"chu vi la "<<(a+b)*2;
+
+cout<<"-----Chu vi , dien tich hinh tron---"
+float PI=3.14;
+
+cout<<"nhap ban kinh";
+cin>>x;
+cout<<"dien tich la "<<x*x*PI;
+cout<<"chu ban la "<<2*x*PI
+}
